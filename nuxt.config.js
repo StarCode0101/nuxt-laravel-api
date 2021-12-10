@@ -53,7 +53,7 @@ export default {
     strategies: {
       'laravelSanctum': {
         provider: 'laravel/sanctum',
-        url: 'https://api.starcode-dev.xyz/',
+        url: 'https://api.starcode-dev.xyz',
         endpoints:{
           login:{
             url: '/api/login'
@@ -83,7 +83,7 @@ export default {
   axios: {
    
     credentials: true,
-    baseURL: 'https://api.starcode-dev.xyz/'
+    baseURL: 'https://api.starcode-dev.xyz'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
